@@ -6,13 +6,15 @@ export const EmblaCarousel = ({ slides }: { slides: React.ReactNode[] }) => {
   const [emblaRef] = useEmblaCarousel();
 
   return (
-    <div className="embla" ref={emblaRef}>
-      <div className="embla__container">
-        {slides.map((slide, index) => (
-          <div className="embla__slide" key={index}>
-            {slide}
-          </div>
-        ))}
+    <div className="embla">
+      <div className="embla__viewport" ref={emblaRef}>
+        <div className="embla__container">
+          {slides.map((slide, index) => (
+            <div className="embla__slide" key={index}>
+              {slide}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -1,9 +1,20 @@
 "use client";
-import { EmblaCarousel } from "../ui/EmblaCarousel";
+import { useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
 import mn from "@/i18n/mn.json";
 
 const Testimonials = () => {
   const t = mn.Testimonials;
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
   const testimonials = [
     {
       name: "Margad",
@@ -31,32 +42,70 @@ const Testimonials = () => {
     },
   ];
 
-  const slides = testimonials.map((testimonial, index) => (
-    <div key={index} className="bg-white p-8 rounded-lg shadow-md">
-      <div className="flex items-center mb-4">
-        <img
-          src={testimonial.image}
-          alt={testimonial.name}
-          className="w-16 h-16 rounded-full mr-4"
-        />
-        <div>
-          <h4 className="font-bold text-lg">{testimonial.name}</h4>
-          <div className="flex">
-            {[...Array(testimonial.rating)].map((_, i) => (
-              <span key={i}>⭐</span>
-            ))}
-          </div>
-        </div>
-      </div>
-      <p className="text-gray-600">{testimonial.text}</p>
-    </div>
-  ));
-
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">{t.title}</h2>
-        <EmblaCarousel slides={slides} />
+        <div className="hidden md:block relative">
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+              {testimonials.map((testimonial, index) => (
+                <div key={index} className="flex-shrink-0 w-full p-4">
+                  <div className="bg-white p-8 rounded-lg shadow-lg h-full flex flex-col items-center text-center">
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      className="w-24 h-24 rounded-full mb-4"
+                    />
+                    <h4 className="font-bold text-xl">{testimonial.name}</h4>
+                    <div className="flex mt-1 mb-4">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <span key={i} className="text-yellow-400">
+                          ⭐
+                        </span>
+                      ))}
+                    </div>
+                    <p className="text-gray-600 italic flex-grow">
+                      "{testimonial.text}"
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <button
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md -ml-4"
+            onClick={scrollPrev}
+          >
+            {'<'}
+          </button>
+          <button
+            className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md -mr-4"
+            onClick={scrollNext}
+          >
+            {'>'}
+          </button>
+        </div>
+        <div className="md:hidden grid grid-cols-1 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="bg-white p-6 rounded-lg shadow-lg text-center">
+              <img
+                src={testimonial.image}
+                alt={testimonial.name}
+                className="w-20 h-20 rounded-full mx-auto mb-4"
+              />
+              <h4 className="font-bold text-lg">{testimonial.name}</h4>
+              <div className="flex justify-center mt-1 mb-4">
+                {[...Array(testimonial.rating)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">
+                    ⭐
+                  </span>
+                ))}
+              </div>
+              <p className="text-gray-600 italic">"{testimonial.text}"</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

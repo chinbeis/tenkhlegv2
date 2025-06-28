@@ -1,5 +1,4 @@
 "use client";
-import { EmblaCarousel } from "../ui/EmblaCarousel";
 import mn from "@/i18n/mn.json";
 
 const Gallery = () => {
@@ -11,15 +10,6 @@ const Gallery = () => {
     "https://www.tenkhleghotel.mn/assets/4.ed0bd43b.jpg",
   ];
 
-  const slides = images.map((src, index) => (
-    <img
-      key={index}
-      src={src}
-      alt={`Gallery image ${index + 1}`}
-      className="rounded-lg"
-    />
-  ));
-
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -27,7 +17,17 @@ const Gallery = () => {
           <h2 className="text-3xl font-bold">{t.title}</h2>
           <p className="text-gray-600 mt-2">{t.description}</p>
         </div>
-        <EmblaCarousel slides={slides} />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {images.map((src, index) => (
+            <div key={index} className="overflow-hidden rounded-lg">
+              <img
+                src={src}
+                alt={`Gallery image ${index + 1}`}
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

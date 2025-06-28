@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="bg-gray-100 py-20">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <p className="text-green-500 font-semibold">{t.greeting}</p>
+          <p className="text-blue-500 font-semibold">{t.greeting}</p>
           <h1 className="text-4xl md:text-5xl font-bold my-4">{t.title}</h1>
           <p className="text-gray-600 mb-8">{t.description}</p>
           <div className="flex space-x-4">
@@ -17,13 +17,13 @@ const Hero = () => {
               href="https://www.facebook.com/reel/724276103894933"
               target="_blank"
               rel="noreferrer"
-              className="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600"
+              className="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600"
             >
               {t.video_button}
             </a>
             <Link
               href="/hotel"
-              className="bg-white text-green-500 border border-green-500 px-6 py-3 rounded-full hover:bg-gray-100"
+              className="bg-white text-blue-500 border border-blue-500 px-6 py-3 rounded-full hover:bg-gray-100"
             >
               {t.hotel_button}
             </Link>

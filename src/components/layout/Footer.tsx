@@ -19,22 +19,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">{t.quick_links}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="hover:text-green-500">
+                <Link href="/" className="hover:text-blue-500">
                   {tHeader.home}
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-green-500">
+                <Link href="/about" className="hover:text-blue-500">
                   {tHeader.about}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-green-500">
+                <Link href="/contact" className="hover:text-blue-500">
                   {tHeader.contact}
                 </Link>
               </li>
               <li>
-                <Link href="/hotel" className="hover:text-green-500">
+                <Link href="/hotel" className="hover:text-blue-500">
                   {tHeader.hotel}
                 </Link>
               </li>
@@ -51,10 +51,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">{tContact.social}</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-green-500">
+              <a href="#" className="hover:text-blue-500">
                 Facebook
               </a>
-              <a href="#" className="hover:text-green-500">
+              <a href="#" className="hover:text-blue-500">
                 Instagram
               </a>
             </div>

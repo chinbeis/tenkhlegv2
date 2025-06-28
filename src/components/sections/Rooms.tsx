@@ -1,5 +1,4 @@
 "use client";
-import { EmblaCarousel } from "../ui/EmblaCarousel";
 import Link from "next/link";
 import mn from "@/i18n/mn.json";
 
@@ -16,27 +15,35 @@ const Rooms = () => {
     "standard": "https://www.tenkhleghotel.mn/assets/1.09f8381f.jpg",
   };
 
-  const slides = roomKeys.map((key) => (
-    <div key={key} className="bg-white rounded-lg shadow-md overflow-hidden">
-      <img src={roomImages[key]} alt={t.room_types[key as keyof typeof t.room_types].title} className="w-full h-48 object-cover" />
-      <div className="p-4">
-        <h3 className="text-xl font-bold">{t.room_types[key as keyof typeof t.room_types].title}</h3>
-        <p className="text-gray-600 mt-2">{t.room_types[key as keyof typeof t.room_types].description}</p>
-      </div>
-    </div>
-  ));
-
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold">{t.title}</h2>
           <p className="text-gray-600 mt-2">{t.description}</p>
-          <Link href="/hotel" className="mt-4 inline-block bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600">
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {roomKeys.slice(0, 3).map((key) => (
+            <div key={key} className="bg-white rounded-lg shadow-lg overflow-hidden group">
+              <div className="overflow-hidden">
+                <img
+                  src={roomImages[key]}
+                  alt={t.room_types[key as keyof typeof t.room_types].title}
+                  className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">{t.room_types[key as keyof typeof t.room_types].title}</h3>
+                <p className="text-gray-700">{t.room_types[key as keyof typeof t.room_types].description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="text-center mt-12">
+          <Link href="/hotel" className="mt-4 inline-block bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-600 transition-colors duration-300">
             {t.all_rooms_button}
           </Link>
         </div>
-        <EmblaCarousel slides={slides} />
       </div>
     </section>
   );

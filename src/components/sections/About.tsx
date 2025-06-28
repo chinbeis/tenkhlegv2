@@ -6,13 +6,13 @@ const About = () => {
   const t = mn.About;
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50 border-4 border-blue-500 shadow-lg shadow-blue-500/50">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img
             src="https://www.tenkhleghotel.mn/assets/about.5fb92658.jpg"
             alt="About us"
-            className="rounded-lg shadow-lg"
+            className="rounded-lg h-96 w-full object-cover"
           />
         </div>
         <div>
@@ -22,7 +22,7 @@ const About = () => {
           <p className="text-gray-600 mb-8">{t.description3}</p>
           <Link
             href="/about"
-            className="text-green-500 font-semibold hover:underline"
+            className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
           >
             {t.learn_more_button}
           </Link>
