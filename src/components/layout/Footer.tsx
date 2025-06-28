@@ -1,55 +1,53 @@
 "use client";
 import Link from "next/link";
-import mn from "@/i18n/mn.json";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
-  const t = mn.Footer;
-  const tContact = mn.Contact;
-  const tHeader = mn.Header;
+  const { t } = useLanguage();
 
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">{t.title}</h3>
-            <p className="text-gray-400">{t.description}</p>
+            <h3 className="text-xl font-bold mb-4">{t("Footer.title") as string}</h3>
+            <p className="text-gray-400">{t("Footer.description") as string}</p>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4">{t.quick_links}</h3>
+            <h3 className="text-xl font-bold mb-4">{t("Footer.quick_links") as string}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="hover:text-blue-500">
-                  {tHeader.home}
+                  {t("Header.home") as string}
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="hover:text-blue-500">
-                  {tHeader.about}
+                  {t("Header.about") as string}
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-blue-500">
-                  {tHeader.contact}
+                  {t("Header.contact") as string}
                 </Link>
               </li>
               <li>
                 <Link href="/hotel" className="hover:text-blue-500">
-                  {tHeader.hotel}
+                  {t("Header.hotel") as string}
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4">{t.contact}</h3>
+            <h3 className="text-xl font-bold mb-4">{t("Footer.contact") as string}</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>{tContact.phone_value}</li>
-              <li>{tContact.email_value}</li>
-              <li>{tContact.address_value}</li>
+              <li>{t("Contact.phone_value") as string}</li>
+              <li>{t("Contact.email_value") as string}</li>
+              <li>{t("Contact.address_value") as string}</li>
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4">{tContact.social}</h3>
+            <h3 className="text-xl font-bold mb-4">{t("Contact.social") as string}</h3>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-blue-500">
                 Facebook
@@ -61,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center text-gray-500 mt-8 pt-8 border-t border-gray-700">
-          <p>{t.copy}</p>
+          <p>{t("Footer.copy") as string}</p>
         </div>
       </div>
     </footer>

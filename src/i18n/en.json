@@ -27,19 +27,19 @@
     "all_rooms_button": "See All Rooms",
     "room_types": {
       "1-bed": {
-        "title": "1 Bed",
+        "title": "1 Bed room",
         "description": "A cozy room with one bed, perfect for solo travelers."
       },
       "2-bed": {
-        "title": "2 Bed",
+        "title": "2 Bed room",
         "description": "A comfortable room with two beds, ideal for couples or friends."
       },
       "big-1": {
-        "title": "Big 1",
+        "title": "Big room 1",
         "description": "A spacious room with four beds, great for families or small groups."
       },
       "big-2": {
-        "title": "Big 2",
+        "title": "Big room 2",
         "description": "Our largest room with six beds, perfect for large families or groups."
       },
       "lux-1": {

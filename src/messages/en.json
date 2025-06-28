@@ -1,0 +1,231 @@
+{
+  "Header": {
+    "home": "Hotel",
+    "about": "About Us",
+    "contact": "Contact",
+    "hotel": "Hotel",
+    "rooms": "Rooms",
+    "resort": "Resort",
+    "contact_button": "Contact Us"
+  },
+  "Hero": {
+    "greeting": "Welcome to Tenkhleg,",
+    "title": "Your Perfect Stay in Murun!",
+    "description": "",
+    "video_button": "Watch Video",
+    "hotel_button": "Visit Resort"
+  },
+  "Camp": {
+    "title": "Tenkhleg Camp",
+    "description": "Experience the beauty of nature and relax in a peaceful environment at Tenkhleg Camp. Our traditional Mongolian gers offer an authentic taste of nomadic culture and lifestyle, with plenty of opportunities for hiking, fishing, and other outdoor activities."
+  },
+  "Gallery": {
+    "title": "Unforgettable Memories",
+    "description": "Capture the magic of Khuvsgul Lake and create memories that will last a lifetime at Tenkhleg Resort."
+  },
+  "Rooms": {
+    "title": "Our Rooms",
+    "description": "Experience authentic Mongolian hospitality in our comfortable accommodations, from traditional gers to modern lakeside rooms.",
+    "all_rooms_button": "View All Rooms",
+    "room_types": {
+      "1-bed": {
+        "title": "1 Bed",
+        "description": "A cozy room with one bed, perfect for solo travelers."
+      },
+      "2-bed": {
+        "title": "2 Bed",
+        "description": "A comfortable room with two beds, ideal for couples or friends."
+      },
+      "big-1": {
+        "title": "Big room 1",
+        "description": "A spacious room with four beds, great for families or small groups."
+      },
+      "big-2": {
+        "title": "Big room 2",
+        "description": "Our largest room with six beds, perfect for large families or groups."
+      },
+      "lux-1": {
+        "title": "Lux 1",
+        "description": "A luxurious room with one bed and premium amenities."
+      },
+      "lux-2": {
+        "title": "Lux 2",
+        "description": "A luxurious room with two beds and premium amenities."
+      },
+      "standard": {
+        "title": "Standard",
+        "description": "A standard room with all the essentials for a comfortable stay."
+      }
+    }
+  },
+  "hotel": {
+    "About": {
+      "title": "About Our Hotel",
+      "description1": "Tenkhleg Hotel is located in the city of Murun, the center of Khuvsgul province. We provide a comfortable and convenient stay for travelers.",
+      "description2": "We blend traditional Mongolian hospitality with modern amenities. Our rooms are designed for your comfort and relaxation.",
+      "description3": "Explore the city and its surroundings from our central location. Our restaurant serves delicious local and international dishes. Enjoy your stay with us!",
+      "learn_more_button": "Learn More"
+    }
+  },
+  "resort": {
+    "About": {
+      "title": "About Our Resort",
+      "description1": "Tenkhleg Resort is your luxurious getaway in Murun, Khuvsgul. We offer comfortable lodges, hot water, a restaurant, and various outdoor activities.",
+      "description2": "Nestled by the pristine Khuvsgul Lake, our resort offers a perfect blend of nature and comfort.",
+      "description3": "Enjoy a variety of activities such as hiking, fishing, and horse riding. Our resort is the perfect place to unwind and reconnect with nature.",
+      "learn_more_button": "Learn More"
+    }
+  },
+  "Testimonials": {
+    "title": "What Our Guests Say"
+  },
+  "PopularPlaces": {
+    "title": "Our Popular Places",
+    "description": "Discover the stunning beauty of Khuvsgul Lake and its surrounding attractions that make Tenkhleg Resort the perfect destination."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "Our hotel is located in Murun city, Khuvsgul. Get in touch to book your stay.",
+    "address": "Address:",
+    "address_value": "Murun, Khuvsgul, Mongolia",
+    "phone": "Phone:",
+    "phone_value": "Hotel: 7038-2090 Camp: 9938-9936",
+    "email": "Email:",
+    "email_value": "info@tenkhleghotel.mn",
+    "social": "Connect with us:"
+  },
+  "Footer": {
+    "title": "Tenkhleg Resort",
+    "description": "Experience the beauty of Khuvsgul Lake with us.",
+    "quick_links": "Quick Links",
+    "contact": "Contact",
+    "copy": "© 2025 Tenkhleg Resort. All rights reserved."
+  },
+  "AboutPage": {
+    "title": "The Best Service in Murun",
+    "description": "Tenkhleg Hotel is in Murun, the heart of Khuvsgul province. We offer great service and a comfortable stay. Enjoy our restaurant and modern amenities.",
+    "gallery_title": "At Tenkhleg"
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "Our hotel is in Murun, Khuvsgul. Contact us to book your stay.",
+    "address_title": "Address",
+    "address_value": "Murun, Khuvsgul, Mongolia",
+    "address_description": "Located in the city center",
+    "phone_title": "Phone",
+    "phone_value": "Hotel: 7038-2090 Camp: 9938-9936",
+    "phone_description": "Available 24/7 for bookings",
+    "email_title": "Email",
+    "email_value": "info@tenkhleghotel.mn",
+    "email_description": "We'll get back to you within 24 hours",
+    "form_title": "Send us a message",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_phone": "Phone Number",
+    "form_subject": "Subject",
+    "form_message": "Message",
+    "form_submit": "Send Message",
+    "map_title": "Find Us"
+  },
+  "HotelPage": {
+    "Hero": {
+      "greeting": "Welcome to Tenkhleg,",
+      "title": "Experience the Beauty of Khuvsgul Lake!",
+      "description": "Visit our lakeside resort, where traditional hospitality meets modern comfort in the heart of Mongolia's pristine nature.",
+      "video_button": "Watch Video",
+      "resort_button": "Visit Resort"
+    },
+    "Rooms": {
+      "title": "Our Rooms",
+      "description": "Experience authentic Mongolian hospitality in our comfortable accommodations, from traditional gers to modern lakeside rooms.",
+      "all_rooms_button": "View All Rooms"
+    },
+    "Testimonials": {
+      "title": "What Our Guests Say"
+    },
+    "PopularPlaces": {
+      "title": "Our Popular Places",
+      "description": "Discover the stunning beauty of Khuvsgul Lake and its surrounding attractions that make Tenkhleg Resort the perfect destination."
+    },
+    "Contact": {
+      "title": "Contact Us",
+      "description": "Tenkhleg Resort is located on the beautiful shores of Khuvsgul Lake. Contact us to plan your unforgettable Mongolian adventure."
+    }
+  },
+  "RoomsPage": {
+    "title": "Our Rooms",
+    "description": "Experience authentic Mongolian hospitality in our comfortable accommodations, from traditional gers to modern lakeside rooms.",
+    "resort_title": "Resort",
+    "hotel_title": "Hotel",
+    "resort_rooms": {
+      "one_bed": {
+        "name": "1 Bed",
+        "description": "A cozy room with one bed, perfect for solo travelers."
+      },
+      "two_bed": {
+        "name": "2 Bed",
+        "description": "A comfortable room with two beds, ideal for couples or friends."
+      },
+      "public": {
+        "name": "Public",
+        "description": "A spacious room with four beds, great for families or small groups."
+      },
+      "public_large": {
+        "name": "Public Large",
+        "description": "Our largest room with six beds, perfect for large families or groups."
+      },
+      "lux_1": {
+        "name": "Lux 1",
+        "description": "A luxurious room with one bed and premium amenities."
+      },
+      "lux_2": {
+        "name": "Lux 2",
+        "description": "A luxurious room with two beds and premium amenities."
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "A standard room with all the essentials for a comfortable stay."
+      }
+    },
+    "hotel_rooms": {
+      "public": {
+        "name": "Public",
+        "description": "A spacious room with four beds, great for families or small groups."
+      },
+      "family": {
+        "name": "Family",
+        "description": "A comfortable room with three beds, ideal for families."
+      },
+      "half_lux": {
+        "name": "Half Lux",
+        "description": "A semi-luxurious room with one bed and upgraded amenities."
+      },
+      "lux_1": {
+        "name": "Lux 1",
+        "description": "A luxurious room with one bed and premium amenities."
+      },
+      "lux_2": {
+        "name": "Lux 2",
+        "description": "A luxurious room with two beds and premium amenities."
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "A standard room with all the essentials for a comfortable stay."
+      }
+    }
+  },
+  "ResortPage": {
+    "greeting": "Welcome to Tenkhleg Resort",
+    "title": "Your Luxurious Getaway in Murun!",
+    "description": "",
+    "video_button": "Watch Video",
+    "hotel_button": "Visit Hotel",
+    "activities_title": "Activities",
+    "basketball": "Basketball Court",
+    "playground": "Children's Playground"
+  },
+  "HotelInfo": {
+    "title": "Our Services",
+    "description": "We offer a variety of services to make your stay comfortable and enjoyable. Our hotel features a restaurant, conference room, and more."
+  }
+}
