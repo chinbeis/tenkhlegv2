@@ -1,0 +1,91 @@
+{
+  "Header": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "hotel": "Hotel",
+    "contact_button": "Contact Us"
+  },
+  "Hero": {
+    "greeting": "Welcome to Tenkhleg,",
+    "title": "Experience the beauty of Khuvsgul Lake!",
+    "description": "Visit our lakefront resort, where traditional hospitality meets modern comfort in the heart of Mongolia's pristine nature.",
+    "video_button": "Watch Video",
+    "hotel_button": "Visit Hotel"
+  },
+  "Camp": {
+    "title": "Tenkhleg Camp",
+    "description": "Experience the beauty of nature and relax in a peaceful environment by visiting Tenkhleg Camp. Our traditional Mongolian gers will introduce you to the nomadic culture and lifestyle, and you can participate in interesting activities such as hiking, fishing and other nature-oriented activities."
+  },
+  "Gallery": {
+    "title": "Unforgettable memories",
+    "description": "Capture the magic of Khuvsgul Lake and create memories that will last a lifetime at Tenkhleg Resort."
+  },
+  "Rooms": {
+    "title": "Our Rooms",
+    "description": "Experience authentic Mongolian hospitality in a comfortable accommodation, from traditional gers to modern lakeside rooms.",
+    "all_rooms_button": "See All Rooms",
+    "room_types": {
+      "1-bed": {
+        "title": "1 Bed",
+        "description": "A cozy room with one bed, perfect for solo travelers."
+      },
+      "2-bed": {
+        "title": "2 Bed",
+        "description": "A comfortable room with two beds, ideal for couples or friends."
+      },
+      "big-1": {
+        "title": "Big 1",
+        "description": "A spacious room with four beds, great for families or small groups."
+      },
+      "big-2": {
+        "title": "Big 2",
+        "description": "Our largest room with six beds, perfect for large families or groups."
+      },
+      "lux-1": {
+        "title": "Lux 1",
+        "description": "A luxurious room with one bed and premium amenities."
+      },
+      "lux-2": {
+        "title": "Lux 2",
+        "description": "A luxurious room with two beds and premium amenities."
+      },
+      "standard": {
+        "title": "Standard",
+        "description": "A standard room with all the essentials for a comfortable stay."
+      }
+    }
+  },
+  "About": {
+    "title": "About Us",
+    "description1": "Located on the shores of Khuvsgul Lake, Tenkhleg Resort offers the opportunity to experience the magnificent natural beauty of Mongolia. Our resort is a place of peace where the clear waters of the lake meet the endless steppes of Mongolia.",
+    "description2": "At Tenkhleg, we combine traditional Mongolian hospitality with modern comfort. Whether you are staying in one of our cozy gers or comfortable rooms, you will find the perfect balance of authenticity and luxury. Wake up to the sounds of nature and enjoy the panoramic views of the lake and surrounding mountains.",
+    "description3": "Embark on our guided tours, get to know the local culture, or simply relax and rejuvenate in our peaceful surroundings. Our restaurant offers local and international dishes prepared with the freshest ingredients. Come and create unforgettable memories at Tenkhleg Resort, your gateway to the heart of Mongolia.",
+    "learn_more_button": "Learn More"
+  },
+  "Testimonials": {
+    "title": "What our guests say"
+  },
+  "PopularPlaces": {
+    "title": "Our popular places",
+    "description": "Discover the stunning beauty of Khuvsgul Lake and the surrounding attractions that make Tenkhleg Resort the perfect destination."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "Tenkhleg Resort is located on the beautiful shores of Khuvsgul Lake. Contact us to plan your unforgettable Mongolian adventure.",
+    "address": "Address:",
+    "address_value": "J6GJ+VW6, Murun, Khuvsgul",
+    "phone": "Phone:",
+    "phone_value": "Hotel: 7038-2090 Camp: 9938-9936",
+    "email": "Email:",
+    "email_value": "info@tenkhlegresort.mn",
+    "social": "Connect with us:"
+  },
+  "Footer": {
+    "title": "Tenkhleg Resort",
+    "description": "Experience the beauty of Khuvsgul Lake with us.",
+    "quick_links": "Quick Links",
+    "contact": "Contact",
+    "copy": "© 2025 Tenkhleg Resort. All rights reserved."
+  }
+}
