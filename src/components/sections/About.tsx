@@ -14,13 +14,13 @@ const About: React.FC<AboutProps> = ({ page }) => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-        <div>
+        <div className="relative w-full h-96">
           <Image
             src={page === 'hotel' ? '/images/hotelAbout.jpg' : '/images/about.jpg'}
             alt="About us"
-            width={500}
-            height={500}
-            className="rounded-lg h-96 w-full object-cover"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
           />
         </div>
         <div>

@@ -38,12 +38,12 @@ const Hero = ({ page }: { page: "hotel" | "resort" }) => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="relative w-full h-96">
           <Image
             src={page === 'hotel' ? '/images/hotelResort.jpg' : '/images/hero.jpg'}
             alt="Hero"
-            width={500}
-            height={500}
+            layout="fill"
+            objectFit="cover"
             className="rounded-lg shadow-lg"
           />
         </div>
